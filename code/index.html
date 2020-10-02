@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" href="./images/favicon.png" alt="favicon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon.png"
+      alt="favicon"
+    />
     <title>Pizza Corner</title>
   </head>
 
@@ -17,9 +25,18 @@
         <h2 class="sub-header-text">Delicious Pizza 24/7</h2>
       </div>
       <picture>
-        <source srcset="./images/header-img-small.jpg" media="(max-width:600px)" />
-        <source srcset="./images/header-img-med.jpg" media="(max-width:900px)" />
-        <img src="./images/header-img-large.jpg" alt="Image of pizza - Photo by Brett Jordan from Pexels" />
+        <source
+          srcset="./images/header-img-small.jpg"
+          media="(max-width:600px)"
+        />
+        <source
+          srcset="./images/header-img-med.jpg"
+          media="(max-width:900px)"
+        />
+        <img
+          src="./images/header-img-large.jpg"
+          alt="Image of pizza - Photo by Brett Jordan from Pexels"
+        />
       </picture>
       <button
         id="orderBtn"
@@ -27,14 +44,19 @@
         type="submit"
         onclick="askForPizza(event)"
       >
-        Order Pizza</button>
+        Order Pizza
+      </button>
     </header>
 
     <div class="pizza-order">
       <p>Your order will display here once completed</p>
       <p id="printOrder" class="print-order"></p>
       <div class="pizza-image">
-        <img id="pizzaImage" src="./pizza-oven.jpg" alt="Image of a pizza oven" />
+        <img
+          id="pizzaImage"
+          src="./pizza-oven.jpg"
+          alt="Image of a pizza oven"
+        />
       </div>
     </div>
 
