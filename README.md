@@ -11,6 +11,4 @@ As another additional feature, We also created a function to display an image of
 ## View it live
 
 We made the website responsive to make sure it looks good on smaller devices. 
-Our pizza bot site can be viewed here:
-
-https://pizza-corner.netlify.app/
+Our pizza bot site can be viewed [here](https://pizza-corner.netlify.app/)
